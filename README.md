@@ -8,3 +8,5 @@ then type nano .bashrc or vim if you have vim then go to the end of the file and
 alias gish='./gish'
 
 then save and exit and you should be good just type gish to start 
+
+oh and this is my first time doing any of this so i might have messed up things.
