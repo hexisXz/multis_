@@ -1,8 +1,8 @@
 # gish
 gish is a simple program i made as a test to learn bash
 
-to install go to the terminal and type git clone https://github.com/xxhexisxx/gish.git
-to configure gish after installing open the terminal and type chmod +x gish
+to install go to the terminal and type git clone https://github.com/xxhexisxx/gish.git and rename the folder to gish_ or anything you want next you need
+to configure gish after installing  so open up the terminal and type chmod +x gish
 
 then type nano .bashrc or vim if you have vim then go to the end of the file and type  
 #### ALIASES #####
