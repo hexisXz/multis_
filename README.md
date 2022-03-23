@@ -2,7 +2,8 @@
 gish is a simple program i made as a test to learn bash 
 
 
-to configure gish after installing open the terminal and type chmod +x 
+to configure gish after installing open the terminal and type chmod +x gish
+
 then type nano .bashrc or vim if you have vim then go to the end of the file and type  
 #### ALIASES #####
 alias gish='./gish'
