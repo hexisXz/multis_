@@ -11,3 +11,4 @@ alias gish='./gish'
 then save and exit and you should be good just type gish to start 
 
 oh and this is my first time doing any of this so i might have messed up things.
+and if you look in the code ate the end it says  check for invalid argument thats nothing i just forgot to romove that 
