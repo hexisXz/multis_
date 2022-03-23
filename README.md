@@ -1,5 +1,5 @@
 # gish
-gish is a simple program i made as a test to learn bash
+gish is a simple program i made as a test to learn bash at the moment it just updates and cleans your system but it will get more advanced as time goes on
 
 to install go to the terminal and type git clone https://github.com/xxhexisxx/gish.git and rename the folder to gish_ or anything you want next you need
 to configure gish after installing  so open up the terminal and type chmod +x gish
