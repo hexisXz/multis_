@@ -8,6 +8,8 @@ then type nano .bashrc or vim if you have vim then go to the end of the file and
 #### ALIASES #####
 alias gish='./gish'
 
+after that go back into the terminal and type source .bashrc
+
 then save and exit then move gish to home or ~ and you should be good just type gish to start. 
 
 oh and this is my first time doing any of this so i might have messed up things.
