@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
-# this is just a message to the user 
-echo "Hi this is a sipmle program i am working on to learn bash have fun :)"
+
+# this is just a message to the user
+dir=$(pwd)
+user=$(whoami)
+echo "Hi $user this is a sipmle program i am working on to learn bash have fun :)"
 echo ----------------------------------------------------------------------------
+
 # main code
 echo if you dont know how to use gish type help well right now you have to type help to get passed this message.
 gish-help() {
@@ -21,11 +25,15 @@ fi
 
 echo --------------------------------------------------------------------------
 echo hint you can exit the program at any time by pressing control c
+
+
 # update the system
 echo do you want to update?
 
 read up
 if [  "$up" == "yes" ]; then
+        sleep 2
+        echo okay updating at $dir
         sudo apt update
 	sudo apt upgrade -yy 
 fi
@@ -38,14 +46,18 @@ if [  "$up" == "no" ]; then
 	sleep 2
         exit
 fi
-
-echo -------------------------------------------------
+echo --------------------------------
+echo --------------------------------
+echo --- -system update complete- ---
+echo --------------------------------
+echo --------------------------------
+echo --------------------------------
 echo do you want to clean your system?
 
-
+# clean the system
 read clean
 if [  "$clean" == "yes" ]; then
-	echo okay system clean up commencing
+	echo okay system clean up commencing at $dir
 	sleep 2
         sudo apt-get autoremove -yy
 	sudo apt-get autoclean
@@ -59,7 +71,6 @@ if [  "$clean" == "no" ]; then
 	sleep 2 
         exit
 fi
-# check for invalid argument
 
 echo -------------------------------
 echo -------------------------------
@@ -68,6 +79,5 @@ echo -------------------------------
 echo -------------------------------
 echo -------------------------------
 echo -------------------------------
-
 
 
