@@ -12,5 +12,4 @@ after that go back into the terminal and type source .bashrc
 
 then move gish to home or ~ and you should be good just type gish to start. 
 
-oh and this is my first time doing any of this so i might have messed up things.
 
