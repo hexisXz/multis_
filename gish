@@ -87,7 +87,7 @@ echo -------------------------------
 echo $user there are...
 sleep 3
 tree -a
-
+sleep 2
 
 echo -------------------------------
 neofetch
