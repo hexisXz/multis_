@@ -32,10 +32,7 @@ echo do you want to update?
 
 read up
 if [  "$up" == "yes" ]; then
-        echo okay updating at $dir
-	sleep 2
-        sudo apt update
-	sudo apt upgrade -yy 
+        echo okay updating at $dir && sleep 2 && sudo apt update && sudo apt upgrade -yy 
 fi
 
 
@@ -43,8 +40,7 @@ if [  "$up" == "no" ]; then
 	echo -----------------
 	echo - okay quiting -
 	echo -----------------
-	sleep 2
-        exit
+	sleep 2 && exit
 fi
 echo --------------------------------
 echo --------------------------------
@@ -57,10 +53,7 @@ echo do you want to clean your system?
 # clean the system
 read clean
 if [  "$clean" == "yes" ]; then
-	echo okay system clean up commencing at $dir
-	sleep 2
-        sudo apt-get autoremove -yy
-	sudo apt-get autoclean
+	echo okay system clean up commencing at $dir && sleep 2 && sudo apt-get autoremove -yy && sudo apt-get autoclean
 fi
 
 
@@ -68,8 +61,7 @@ if [  "$clean" == "no" ]; then
         echo -----------------
         echo - okay quiting -
         echo -----------------
-	sleep 2 
-        exit
+	sleep 2 && exit
 fi
 
 echo -------------------------------
