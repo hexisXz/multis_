@@ -20,7 +20,7 @@ read h
 if [  "$h" == "help" ]; then
         gish-help
 fi
-sleep 5
+
 
 while true; do
 echo "what would you like to do?
