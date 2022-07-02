@@ -77,9 +77,9 @@ fi
 
 
 if [  "$up" == "3" ]; then
-	#neofetch
+	neofetch
 	#or if you want to use pfetch 
-	pfetch
+	#pfetch
 fi
 
 
