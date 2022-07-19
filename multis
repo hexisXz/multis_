@@ -1,0 +1,114 @@
+#!/usr/bin/env bash
+
+# a message to the user
+dir=$(pwd)
+user=$(whoami)
+echo "Hi $user this is a sipmle program i made in my free time have fun :)"
+echo ----------------------------------------------------------------------------
+
+
+
+
+
+
+
+echo if you dont know how to use gish type help or press any key to skip this message or just press enter.
+
+
+
+
+
+
+
+
+#help
+read h
+if [  "$h" == "help" ]; then
+	echo "gish is a simple program that updates cleans and displays system info and more.
+	
+	"
+fi
+
+
+
+
+
+
+
+
+while true; do
+echo "what would you like to do?
+
+(1) update the system
+
+(2) clean the system
+
+(3) display system info
+
+(4) display the weather 
+
+(5) display disk info
+
+(6) exit"
+
+
+
+
+
+
+read up
+if [  "$up" == "1" ]; then
+        echo okay updating at $dir && sleep 2 && sudo apt update && sudo apt upgrade -yy 
+fi
+
+
+
+
+
+
+
+if [ "$up" == "2" ]; then
+	echo okay system clean up commencing at $dir && sleep 2 && sudo apt-get autoremove -yy && sudo apt-get autoclean
+fi
+
+
+
+
+
+
+if [  "$up" == "3" ]; then
+	#neofetch
+	#or if you want to use pfetch 
+	pfetch
+fi
+
+
+
+
+
+
+
+if [ "$up" == "4" ]; then
+	curl wttr.in
+fi
+
+
+
+
+
+
+if [ "$up" == "5" ]; then 
+	df -h
+	echo "-------------------------------------------------------------"
+	lsblk
+fi
+
+
+
+
+
+if [ "$up" == "6" ]; then
+	echo okay quiting... && exit
+fi
+
+done 
