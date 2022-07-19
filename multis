@@ -12,7 +12,7 @@ echo ---------------------------------------------------------------------------
 
 
 
-echo if you dont know how to use gish type help or press any key to skip this message or just press enter.
+echo if you dont know how to use multis type help or press any key to skip this message or just press enter.
 
 
 
@@ -24,7 +24,7 @@ echo if you dont know how to use gish type help or press any key to skip this me
 #help
 read h
 if [  "$h" == "help" ]; then
-	echo "gish is a simple program that updates cleans and displays system info and more.
+	echo "multis is a simple program that updates cleans and displays system info and more.
 	
 	"
 fi
@@ -77,9 +77,9 @@ fi
 
 
 if [  "$up" == "3" ]; then
-	#neofetch
+	neofetch
 	#or if you want to use pfetch 
-	pfetch
+	#pfetch
 fi
 
 
