@@ -1,2 +1,2 @@
-# gish_
-gish is a simple program i made as a test to learn bash 
+# multis_
+multis is a simple program i made as a test to learn bash 
