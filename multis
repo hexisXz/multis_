@@ -58,7 +58,8 @@ echo "what would you like to do?
 
 read up
 if [  "$up" == "1" ]; then
-        echo okay updating at $dir && sleep 2 && sudo apt update && sudo apt upgrade -yy 
+        echo okay updating at $dir && sleep 2 && sudo apt update && sudo apt upgrade -yy
+	#sudo nala update && sudo nala upgrade -yy
 fi
 
 
